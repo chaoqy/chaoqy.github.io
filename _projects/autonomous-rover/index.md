@@ -7,6 +7,6 @@ skills:
 - Raspberry Pi
 - Arduino
 - Python
-main-image: /rover.jpeg 
+main-image: /rover(1).jpeg 
 ---
 
