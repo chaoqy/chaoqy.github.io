@@ -5,5 +5,5 @@ description: Modelled various components for both Smith Engineering Hyperloop an
 skills: 
 - SolidWorks
 - Onshape
-main-image: /QKRT-Infantry-HopperBox.png 
+main-image: /hopperbox.png 
 ---
