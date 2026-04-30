@@ -26,4 +26,4 @@ To better understand what the robot is “seeing” and doing, I built a URDF mo
 
 {% include image-gallery.html images="urdf.png" %} 
 
-[Repo link](https://github.com/chaoqy)
+[Code link](https://github.com/chaoqy/chaoqy.github.io/blob/main/_projects/autonomous-rover/code)
