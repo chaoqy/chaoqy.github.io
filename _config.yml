@@ -55,8 +55,10 @@ skills:
     - Arduino
     - Raspberry Pi
     - ROS2
-    - C
+    - C/C++
     - Python
+    - Git
+    - PostgreSQL
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
