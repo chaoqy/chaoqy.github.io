@@ -9,7 +9,9 @@ main-image: /plate.png
 
 ---
 # Computer Vision Model
-Aggregated and curated a large-scale image dataset from multiple external sources; automated label standardization using a custom Python script to reconcile inconsistent annotation formats. Developed a Python-based data augmentation pipeline (geometric transforms, lighting variations) to improve dataset diversity and model generalization. Trained and fine-tuned a YOLO-based object detection model, achieving a +2.7 point improvement in mAP@0.50:0.95 (0.577 -> 0.604).
+I aggregated and curated a large-scale image dataset from multiple external sources, then wrote a custom Python script to standardize inconsistent annotation formats into a unified structure. To improve model robustness, I also built a data augmentation pipeline in Python that applied geometric transformations and lighting variations to increase dataset diversity and generalization.
+
+Using this dataset, I trained and fine-tuned a YOLO-based object detection model, which improved performance by +2.7 mAP@0.50:0.95 (0.577 -> 0.604).
 
 ## Demo
 [See this for a full demo](https://github.com/chaoqy)
