@@ -21,3 +21,5 @@ The final prototype processed 250 mL of bentonite-contaminated water per cycle a
 
 ## Final Prototype
 {% include image-gallery.html images="water_system.png" %}    
+
+[Arduino code](https://github.com/chaoqy/chaoqy.github.io/edit/main/_projects/water-system/water_system_code.ino)
