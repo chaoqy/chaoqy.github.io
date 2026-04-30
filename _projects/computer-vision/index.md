@@ -14,4 +14,6 @@ I aggregated and curated a large-scale image dataset from multiple external sour
 Using this dataset, I trained and fine-tuned a YOLO-based object detection model, which improved performance by +2.7 mAP@0.50:0.95 (0.577 -> 0.604).
 
 ## Demo
-[See this for a full demo](https://github.com/chaoqy)
+{% include image-gallery.html images="cv_test.gif" %}  
+
+[See this for better quality](https://github.com/chaoqy/chaoqy.github.io/blob/main/_projects/computer-vision/cv_test.mov)
