@@ -2,6 +2,7 @@
 layout: post
 title: Modbus A/T Sensor
 description: Developed and tested firmware for an ATtiny816-based Modbus RTU slave device that acquires accelerometer and temperature data.
+skills:
 - AVR
 - Arduino
 - Modbus
