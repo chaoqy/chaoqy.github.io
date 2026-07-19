@@ -11,7 +11,7 @@ main-image: /discord.webp
 
 ---
 # Character Information Bot
-A Discord bot I created during my time at FunCat Games as an intern to process game data, with efficient lookup structures for 100+ characters and items. The bot has multiple commands with flexible searching by name, attribute, and nickname, and automated stat calculation system.
+A Discord bot I created to process game data for the mobile game, with efficient lookup structures for 100+ characters and items. The bot has multiple commands with flexible searching by name, attribute, and nickname, and automated stat calculation system.
 
 ## Demo
 {% include image-gallery.html images="char_bot_demo.gif" %}  
