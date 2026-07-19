@@ -17,7 +17,7 @@ A Discord bot I created to process game data for the mobile game, with efficient
 {% include image-gallery.html images="char_bot_demo.gif" %}  
 
 # Game Feedback Bot
-Another Discord bot that I made as an intern; receives feedback from players via direct messages and stores to a PostgreSQL database. Has a user-based timecool down so users are unable to spam the bot. I added admin commands to export all the feedback as a text file and to clear all stored entries. 
+Receives feedback from players via direct messages and stores to a PostgreSQL database. Has a user-based timecool down so users are unable to spam the bot. I added admin commands to export all the feedback as a text file and to clear all stored entries. 
 
 ## Demo
 
