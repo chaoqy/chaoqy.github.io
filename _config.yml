@@ -16,8 +16,7 @@ name: Ethan Yu
 headline: (Chao Qian Yu)
 description: >- # dont remove this line. this will ignore all new lines until the next section
   I'm a second-year Mechatronics and Robotics Engineering student at Queen's University, and I love to challenge myself 
-  to learn new concepts. Currently, I am working as a research assistant under the supervision of Dr. Yongjun Lai, 
-  developing an embedded system for machine condition monitoring. My main hobby is playing trading card games with friends.
+  to learn new concepts.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar1.jpg
@@ -32,7 +31,7 @@ resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/vi
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: ethan-yu-486408304    # https://www.linkedin.com/in/{your url slug} 
-  github: chaoqy   # https://github.com/{your url slug} 
+  github:    # https://github.com/{your url slug} 
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
@@ -44,21 +43,37 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: Design & Simulation Tools
+  - category: Programming Languages
     tools:
+    - C
+    - C++
+    - Python
+    - PostgreSQL
+  - category: Embedded Systems
+    tools:
+    - Contiki OS
+    - ARM Cortex-M
+    - AVR
+    - RS485
+    - Modbus
+    - SPI
+    - UART
+    - I2C
+    - RTC
+    - PDC
+    - ADC
+  - category: Robotics
+    tools:
+    - ROS2
+    - Nav2
+    - RViz
+    - URDF
+    - Raspberry Pi
+  - category: PCB & CAD Design
+    tools:
+    - KiCad
     - Onshape
     - Solidworks
-    - LTspice
-    - Quartus Prime
-  - category: Embedded Systems & Programming
-    tools:
-    - Arduino
-    - Raspberry Pi
-    - ROS2
-    - C/C++
-    - Python
-    - Git
-    - PostgreSQL
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
