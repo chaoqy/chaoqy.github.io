@@ -19,7 +19,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   who is naturally curious and always eager to learn, explore new ideas, and take on new challenges.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar1.jpg
+profile_image: ./assets/images/profile-image/pic.png
 
 
 # Link your resume
