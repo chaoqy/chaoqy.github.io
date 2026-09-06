@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Computer Vision Model
-description: Real-time computer vision model for enemy detection and tracking as part of the Queen's Knights Robotics Team.
+description: Real-time computer vision model for enemy detection and tracking for the Queen's Knights Robotics Team.
 skills: 
 - Python
 main-image: /plate.png 
