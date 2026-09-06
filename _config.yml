@@ -15,8 +15,8 @@ title: Ethan Yu's Portfolio # This is what shows up in the tab of the browser
 name: Ethan Yu
 headline: (Chao Qian Yu)
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  I'm a second-year Mechatronics and Robotics Engineering student at Queen's University, and I love
-  to learn new stuff all the time.
+  I'm a third-year Mechatronics and Robotics Engineering student at Queen's University 
+  who is naturally curious and always eager to learn, explore new ideas, and take on new challenges.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar1.jpg
