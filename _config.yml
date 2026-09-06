@@ -56,12 +56,6 @@ skills:
     - AVR
     - RS485
     - Modbus
-    - SPI
-    - UART
-    - I2C
-    - RTC
-    - PDC
-    - ADC
   - category: Robotics
     tools:
     - ROS2
