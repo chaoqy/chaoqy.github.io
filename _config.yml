@@ -54,6 +54,7 @@ skills:
     - Contiki OS
     - ARM Cortex-M
     - AVR
+    - Raspberry Pi
     - RS485
     - Modbus
   - category: Robotics
@@ -62,7 +63,7 @@ skills:
     - Nav2
     - RViz
     - URDF
-    - Raspberry Pi
+    - Gazebo
   - category: PCB & CAD Design
     tools:
     - KiCad
