@@ -70,15 +70,10 @@ skills:
     - Multimeter
     - NanoVNA
     - Spectrum Analyzer
-  - category: Robotics
+  - category: Tools & Development
     tools:
-    - ROS2
-    - Nav2
-    - RViz
-    - URDF
-    - Gazebo
-  - category: PCB & CAD Design
-    tools:
+    - Git
+    - ROS 2
     - KiCad
     - Onshape
     - Solidworks
