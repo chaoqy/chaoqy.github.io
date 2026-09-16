@@ -51,12 +51,23 @@ skills:
     - PostgreSQL
   - category: Embedded Systems
     tools:
-    - Contiki OS
     - ARM Cortex-M
     - AVR
+    - Contiki OS
     - Raspberry Pi
+    category: Protocols & Interfaces
+    - SPI
+    - UART
+    - I2C
+    - DMA
+    - ADC
     - RS485
     - Modbus
+    category: Test & Measurement
+    - Oscilloscope
+    - Multimeter
+    - NanoVNA
+    - Spectrum Analyzer
   - category: Robotics
     tools:
     - ROS2
