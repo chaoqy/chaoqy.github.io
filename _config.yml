@@ -55,7 +55,7 @@ skills:
     - AVR
     - Contiki OS
     - Raspberry Pi
-    category: Protocols & Interfaces
+  - category: Protocols & Interfaces
     tools:
     - SPI
     - UART
@@ -64,7 +64,7 @@ skills:
     - ADC
     - RS485
     - Modbus
-    category: Test & Measurement
+  - category: Test & Measurement
     tools:
     - Oscilloscope
     - Multimeter
