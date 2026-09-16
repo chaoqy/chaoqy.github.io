@@ -56,6 +56,7 @@ skills:
     - Contiki OS
     - Raspberry Pi
     category: Protocols & Interfaces
+    tools:
     - SPI
     - UART
     - I2C
@@ -64,6 +65,7 @@ skills:
     - RS485
     - Modbus
     category: Test & Measurement
+    tools:
     - Oscilloscope
     - Multimeter
     - NanoVNA
