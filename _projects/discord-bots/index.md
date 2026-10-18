@@ -14,6 +14,8 @@ main-image: /discord.webp
 A Discord bot I created to process game data for the mobile game, with efficient lookup structures for 100+ characters and items. The bot has multiple commands with flexible searching by name, attribute, and nickname, and automated stat calculation system.
 
 [Repo](https://github.com/c00perate/TGBTC-Bot)
+
+
 <!--
 ## Demo
 {% include image-gallery.html images="char_bot_demo.gif" %} -->
