@@ -24,7 +24,7 @@ I use the Arduino as a low-level controller. It takes those commands and transla
 ## Arduino Firmware
 Firmware that turns velocity commands from a ROS 2 host into regulated wheel speeds. The microcontroller runs a 100 Hz real-time control loop. It measures each wheel’s speed from encoders, corrects it with a per-wheel PID controller, and streams encoder counts back to the host for odometry. Splitting the work this way keeps timing-critical motor control on the microcontroller and leaves planning and navigation to ROS 2.
 
-### Technical Highlights
+## Technical Highlights
 - **Command interface**: the host sends line-delimited commands (`V|v_left|v_right\n`) at 115200 baud, with target wheel speeds in m/s. A small parser with a bounded 64-byte buffer handles partial reads and oversized lines.
 - **Encoder sensing**: each wheel has a quadrature encoder (3000 ticks per revolution). Interrupt service routines count rising edges on channel A and read channel B for direction. The main loop takes a snapshot of the counts inside a short interrupt-disabled critical section, so reads are race-free.
 - **Velocity estimation**: per-interval tick deltas become angular velocity, then linear velocity using the 6.25 cm wheel radius. Cumulative tick totals are kept separately for odometry.
