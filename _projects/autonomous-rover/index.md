@@ -4,7 +4,7 @@ title: Autonomous Rover
 description: Developed an autonomous rover using ROS 2 and Raspberry Pi, implementing closed-loop PID control for navigation.
 skills: 
 - ROS 2
-- Raspberry Pi
+- Linux (Ubuntu)
 - Arduino
 - Python
 main-image: /rover(1).jpeg 
