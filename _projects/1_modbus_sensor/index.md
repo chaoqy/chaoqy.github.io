@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Modbus Sensor
-description: Developed and tested firmware for a SAMG53-based Modbus RTU slave device that acquires accelerometer data.
+description: Developed and tested firmware for a SAMG53-based Modbus RTU sensor node that acquires accelerometer data.
 skills:
 - C
 - ARM Cortex-M
