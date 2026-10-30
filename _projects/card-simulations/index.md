@@ -4,6 +4,7 @@ title: Card Simulations
 description: Created various Monte-Carlo simulations in C to estimate probability of endpoints for different card games. 
 skills:
 - C
+- CMake
 main-image: /ygo_back.jpg
 ---
 
