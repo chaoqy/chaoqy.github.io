@@ -76,6 +76,7 @@ skills:
     - NanoVNA
     - Spectrum Analyzer    
   - category: Software
+    tools:
     - LTspice
     - KiCad
     - Onshape
