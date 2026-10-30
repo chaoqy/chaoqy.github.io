@@ -17,11 +17,6 @@ In the trading card game Riftbound, a 39-card deck is built around a 9-rune fini
 - **Ramp cards**: Mobilize and Catalyst of Aeons add runes that arrive exhausted and become usable the next turn.
 - **Card selection**: Dredge Up (draw 1; two uses per copy), Clairvoyance (look at the top 5 cards, reorder them, draw 2) and Promising Future (look at 5, play one for free).
 
-## Technical Highlights
-- **Greedy turn policy**: each turn the simulated player repeatedly casts the best affordable card in a fixed priority order, ramp first and then card selection. It re-checks the win condition after every action that can draw a card.
-- **Probability-gated decision**: the one card with a permanent rune cost, Promising Future, is only cast when the exact hypergeometric probability of finding Aurora in the top 5 cards of the actual remaining deck meets a threshold.
-- **Efficient deck representation**: the deck is a fixed-size circular buffer, so draws and put-top/put-bottom operations are O(1) with no array shifting.
-
 [Repo link](https://github.com/c00perate/riftbound_aurora)
 
 # Yu-Gi-Oh! Consistency Calculator
@@ -32,9 +27,5 @@ In the modern format of the trading card game Yu-Gi-Oh!, nearly everything hinge
 - **Combos**: each combo is a “possibility” made of conditions like “at least N copies of card X”. A hand is valid if it satisfies all conditions of at least one possibility, so combos are an OR of ANDs.
 - **Draw engine**: five draw spells are hardcoded by name: Pot of Desires, Pot of Extravagance, Upstart Goblin, Pot of Prosperity, and Pot of Duality. If the opening hand doesn’t satisfy a combo directly, the program tries playing these cards to dig deeper.
 - **Best-play result**: the search tries every legal order of activations and every choice among revealed cards. The success rate is therefore the chance that a winning line exists, not the chance an average player finds it.
-
-## Technical Highlights
-- **Bitmask pre-filter**: each hand keeps a `uint64_t` presence mask. Most combos are ruled out with one `(mask & required) == required` check before the per-card counts are examined.
-- **Pre-drawn lookahead buffer**: the cards below the hand are stored in an Extras array, so draw effects pull from a pre-randomized “top of deck” and stay deterministic and cheap.
 
 [Repo link](https://github.com/c00perate/ygo_calculator)
