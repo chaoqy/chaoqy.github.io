@@ -16,7 +16,8 @@ name: Ethan Yu
 headline: (Chao Qian Yu)
 description: >- # dont remove this line. this will ignore all new lines until the next section
   I'm a third-year Mechatronics and Robotics Engineering student at Queen's University 
-  who is naturally curious and always eager to learn, explore new ideas, and take on new challenges. I love to play TCGs.
+  who is naturally curious and always eager to learn, explore new ideas, and take on new challenges. 
+  I love to play TCGs.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/pic.png
@@ -48,35 +49,38 @@ skills:
     - C
     - C++
     - Python
+    - MATLAB
     - PostgreSQL
   - category: Embedded Systems
     tools:
     - ARM Cortex-M
     - AVR
     - Contiki OS
-    - Raspberry Pi
-  - category: Protocols & Interfaces
-    tools:
     - SPI
     - UART
     - I2C
     - DMA
     - ADC
     - RS485
-    - Modbus
-  - category: Test & Measurement
+    - Modbus  
+  - category: Systems
+    tools:
+    - Git
+    - CMake
+    - Linux (Ubuntu)
+    - ROS 2
+  - category: Hardware
     tools:
     - Oscilloscope
     - Multimeter
     - NanoVNA
-    - Spectrum Analyzer
-  - category: Tools & Development
-    tools:
-    - Git
-    - ROS 2
+    - Spectrum Analyzer    
+  - category: Software
+    - LTspice
     - KiCad
     - Onshape
     - Solidworks
+    - Simulink
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
