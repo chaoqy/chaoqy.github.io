@@ -50,7 +50,6 @@ skills:
     - C++
     - Python
     - MATLAB
-    - PostgreSQL
   - category: Embedded Systems
     tools:
     - ARM Cortex-M
@@ -59,8 +58,6 @@ skills:
     - SPI
     - UART
     - I2C
-    - DMA
-    - ADC
     - RS485
     - Modbus  
   - category: Systems
@@ -74,7 +71,6 @@ skills:
     - Oscilloscope
     - Multimeter
     - NanoVNA
-    - Spectrum Analyzer    
   - category: Software
     tools:
     - LTspice
