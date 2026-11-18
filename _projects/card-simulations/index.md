@@ -10,7 +10,9 @@ main-image: /ygo_back.jpg
 
 ---
 # Riftbound Consistency Calculator
-In the trading card game Riftbound, a 39-card deck is built around a 9-rune finisher, Dazzling Aurora. I wrote a Monte Carlo simulator in C to answer the question: *by which turn can the player cast it, and how much does a 2-rune vs. 3-rune opening change that*?
+In the trading card game Riftbound, a 39-card deck is built around a 9-rune finisher, Dazzling Aurora. I wrote a Monte Carlo simulator in C to calculate by which turn can the player cast Aurora, and how much does a 2-rune vs. 3-rune opening affect the probability.
+
+UPDATE: they banned Aurora :(
 
 ## What It Models
 - **Opening hand**: a 4-card draw, with a mulligan of up to 2 cards.
