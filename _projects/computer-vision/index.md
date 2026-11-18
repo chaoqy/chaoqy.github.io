@@ -14,4 +14,5 @@ I aggregated and curated a large-scale image dataset from multiple external sour
 ## Demo
 {% include image-gallery.html images="cv_test.gif" %}  
 
-[See this for better quality](https://github.com/chaoqy/chaoqy.github.io/blob/main/_projects/computer-vision/cv_test.mov)
+<!-- [See this for better quality](https://github.com/chaoqy/chaoqy.github.io/blob/main/_projects/computer-vision/cv_test.mov)
+-->
